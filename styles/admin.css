@@ -1,0 +1,43 @@
+*{
+	font-size: 1em;
+}
+body{
+	text-align: center;
+}
+h1{
+	font-size: 1.5em;
+}
+#newsName{
+	width: 350px;
+	border: 1px solid #222222;
+	margin-bottom: 10px;
+}
+#categoryList{
+	width: 150px;
+	border: 1px solid #222222;
+}
+#categoryList:hover{
+	cursor: pointer;
+}
+textarea{
+	width: 90%;
+	height: 80px;
+	font-size: 1.2em;
+	margin-bottom: 10px;
+	border: 1px solid #222222;
+}
+#newsText{
+	height: 400px;
+}
+#button{
+	width: 150px;
+	border: 1px solid #222222;
+	margin-bottom: 10px;
+}
+#button:hover{
+	cursor: pointer;
+}
+h5{
+	width: 100px;
+	margin: 0;
+}

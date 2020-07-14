@@ -1,11 +1,6 @@
 <?php
 
-	$dbInfo = [
-		'host'=> 'localhost',
-		'user'=> 'root',
-		'password'=> '',
-		'db'=> 'newsDB'
-	];
+	require($_SERVER['DOCUMENT_ROOT'].'\config.php');
 
 	$link = mysqli_connect($dbInfo['host'], $dbInfo['user'], $dbInfo['password'], $dbInfo['db']);
 
